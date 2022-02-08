@@ -67,7 +67,7 @@ int ExportMatrix(char *filename, float *val, int N, int M)
 	return 1;
 }
 
-#define WIDTH = 16
+#define WIDTH 16
 // Compute C = A * B
 __global__ void matrixMultiplyShared(float *A, float *B, float *C, int numARows,
 									 int numAColumns, int numBRows, int numBColumns)
@@ -111,7 +111,7 @@ __global__ void matrixMultiplyShared(float *A, float *B, float *C, int numARows,
 
 		for (int j = 0; j < WIDTH; j++)
 		{
-			result += A_[ty][j] * B[j][tx];
+			result += A_[ty][j] * B_[j][tx];
 		}
 		__syncthreads();
 	}
