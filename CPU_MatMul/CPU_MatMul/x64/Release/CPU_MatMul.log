@@ -1,0 +1,9 @@
+﻿  main.cpp
+E:\Courses\Courses-2021-2022\GPU Course-Winter-2022\GPU Class Labs\Lab4\CPU_MatMul\main.cpp(41,8): warning C4101: 'value': unreferenced local variable
+E:\Courses\Courses-2021-2022\GPU Course-Winter-2022\GPU Class Labs\Lab4\CPU_MatMul\main.cpp(142,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating code
+  2 of 12 functions (16.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CPU_MatMul.vcxproj -> E:\Courses\Courses-2021-2022\GPU Course-Winter-2022\GPU Class Labs\Lab4\CPU_MatMul\x64\Release\CPU_MatMul.exe
