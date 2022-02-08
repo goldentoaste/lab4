@@ -1,40 +1,32 @@
-﻿Build started 2022-02-07 9:34:09 PM.
-     1>Project "C:\Users\rgong2\lab4\OPT_MatMul\OPT_MatMul\OPT_MatMul.vcxproj" on node 2 (Build target(s)).
-     1>CudaBuild:
+﻿Build started 2022-02-07 9:50:29 PM.
+     1>Project "C:\Users\rgong2\Desktop\lab4\OPT_MatMul\OPT_MatMul\OPT_MatMul.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /DNDEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c C:\Users\rgong2\Desktop\lab4\OPT_MatMul\OPT_MatMul\kernel.cu 
+       CudaBuild:
          Compiling CUDA source file kernel.cu...
-         cmd.exe /C "C:\Users\rgong2\AppData\Local\Temp\tmp9aba4dfa9e5d4451b1ec049cd3120431.cmd"
-         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\kernel.cu.obj "C:\Users\rgong2\lab4\OPT_MatMul\OPT_MatMul\kernel.cu"
+         cmd.exe /C "C:\Users\rgong2\AppData\Local\Temp\tmpb3feb837dc564357aa6189c144a40807.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\kernel.cu.obj "C:\Users\rgong2\Desktop\lab4\OPT_MatMul\OPT_MatMul\kernel.cu"
          
-         C:\Users\rgong2\lab4\OPT_MatMul\OPT_MatMul>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\kernel.cu.obj "C:\Users\rgong2\lab4\OPT_MatMul\OPT_MatMul\kernel.cu" 
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(77): error : expected an expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(77): error : this operator is not allowed in a constant expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(77): error : expected an expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(77): error : this operator is not allowed in a constant expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(78): error : expected an expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(78): error : this operator is not allowed in a constant expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(78): error : expected an expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(78): error : this operator is not allowed in a constant expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(85): error : expected an expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(86): error : expected an expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(90): error : expected an expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(92): error : expected an expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(94): error : expected an expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(101): error : expected an expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(103): error : expected an expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(112): error : expected an expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(114): error : expression must have pointer-to-object type
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(82): warning : variable "bx" was declared but never referenced
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(83): warning : variable "by" was declared but never referenced
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(220): error : expected an expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(220): error : expected an expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(221): error : expected an expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(221): error : expected an expression
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(227): error : identifier "matrixMultiply" is undefined
-     1>C:/Users/rgong2/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(227): error : expected an expression
+         C:\Users\rgong2\Desktop\lab4\OPT_MatMul\OPT_MatMul>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\kernel.cu.obj "C:\Users\rgong2\Desktop\lab4\OPT_MatMul\OPT_MatMul\kernel.cu" 
+     1>C:/Users/rgong2/Desktop/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(82): warning : variable "bx" was declared but never referenced
+     1>C:/Users/rgong2/Desktop/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(83): warning : variable "by" was declared but never referenced
+     1>C:/Users/rgong2/Desktop/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(82): warning : variable "bx" was declared but never referenced
+     1>C:/Users/rgong2/Desktop/lab4/OPT_MatMul/OPT_MatMul/kernel.cu(83): warning : variable "by" was declared but never referenced
          kernel.cu
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\BuildCustomizations\CUDA 7.5.targets(604,9): error MSB3721: The command ""C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\kernel.cu.obj "C:\Users\rgong2\lab4\OPT_MatMul\OPT_MatMul\kernel.cu"" exited with code 2.
-     1>Done Building Project "C:\Users\rgong2\lab4\OPT_MatMul\OPT_MatMul\OPT_MatMul.vcxproj" (Build target(s)) -- FAILED.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\rgong2\Desktop\lab4\OPT_MatMul\x64\Release\OPT_MatMul.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\rgong2\Desktop\lab4\OPT_MatMul\x64\Release\OPT_MatMul.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\rgong2\Desktop\lab4\OPT_MatMul\x64\Release\OPT_MatMul.lib" /MACHINE:X64 x64\Release\kernel.cu.obj
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         OPT_MatMul.vcxproj -> C:\Users\rgong2\Desktop\lab4\OPT_MatMul\x64\Release\OPT_MatMul.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\rgong2\Desktop\lab4\OPT_MatMul\x64\Release\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\rgong2\Desktop\lab4\OPT_MatMul\x64\Release\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\rgong2\Desktop\lab4\OPT_MatMul\x64\Release\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 2 file(s) copied.
+     1>Done Building Project "C:\Users\rgong2\Desktop\lab4\OPT_MatMul\OPT_MatMul\OPT_MatMul.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:01.89
+Time Elapsed 00:00:09.01

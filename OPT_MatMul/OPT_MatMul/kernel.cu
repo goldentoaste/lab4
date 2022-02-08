@@ -224,7 +224,7 @@ int main(int argc, char **argv)
 	// TODO:: Launch the GPU Kernel here
 
 	cudaDeviceSynchronize();
-	matrixMultiply<<<blockDim, gridDim>>>(deviceA, deviceB, deviceC, numARows, numAColumns, numBRows, numBColumns, );
+	matrixMultiplyShared<<<blockDim, gridDim>>>(deviceA, deviceB, deviceC, numARows, numAColumns, numBRows, numBColumns);
 
 	Elapsed_time(StartingTime, "--------->Performing CUDA computation*******", prt);
 

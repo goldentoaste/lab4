@@ -1,18 +1,18 @@
 2022-02-07
-21:30:07.59
+21:51:37.29
 OPT MatMul Testing Test 0...
 Running GPU Matrix Multiplicaion V1.2...
 Reading File Dataset\Test\0\output.raw
 Reading File Dataset\Test\0\input0.raw
 Reading File Dataset\Test\0\input1.raw
-Reading Data. Elapsed Time 388 in micro-seconds
+Reading Data. Elapsed Time 468 in micro-seconds
 Allocating GPU memory. Elapsed Time 0 in micro-seconds
 The dimensions of A are is 16 x 16 
 The dimensions of B are is 16 x 16 
 The dimensions of C are is 16 x 16 
-Allocating GPU memory. Elapsed Time 0 in micro-seconds
-Copying input memory to the GPU. Elapsed Time 0 in micro-seconds
---------->Performing CUDA computation******* Elapsed Time 13169 in micro-seconds
+Allocating GPU memory. Elapsed Time 11925 in micro-seconds
+Copying input memory to the GPU. Elapsed Time 1 in micro-seconds
+--------->Performing CUDA computation******* Elapsed Time 2 in micro-seconds
 Copying output memory to the CPU. Elapsed Time 0 in micro-seconds
 Freeing GPU Memory. Elapsed Time 0 in micro-seconds
 Writing File Dataset\Test\0\myOutput.raw
@@ -22,14 +22,14 @@ Running GPU Matrix Multiplicaion V1.2...
 Reading File Dataset\Test\1\output.raw
 Reading File Dataset\Test\1\input0.raw
 Reading File Dataset\Test\1\input1.raw
-Reading Data. Elapsed Time 3782 in micro-seconds
-Allocating GPU memory. Elapsed Time 8 in micro-seconds
+Reading Data. Elapsed Time 3688 in micro-seconds
+Allocating GPU memory. Elapsed Time 9 in micro-seconds
 The dimensions of A are is 64 x 64 
 The dimensions of B are is 64 x 64 
 The dimensions of C are is 64 x 64 
-Allocating GPU memory. Elapsed Time 0 in micro-seconds
-Copying input memory to the GPU. Elapsed Time 0 in micro-seconds
---------->Performing CUDA computation******* Elapsed Time 11675 in micro-seconds
+Allocating GPU memory. Elapsed Time 11380 in micro-seconds
+Copying input memory to the GPU. Elapsed Time 1 in micro-seconds
+--------->Performing CUDA computation******* Elapsed Time 2 in micro-seconds
 Copying output memory to the CPU. Elapsed Time 0 in micro-seconds
 Freeing GPU Memory. Elapsed Time 0 in micro-seconds
 Writing File Dataset\Test\1\myOutput.raw
@@ -39,14 +39,14 @@ Running GPU Matrix Multiplicaion V1.2...
 Reading File Dataset\Test\2\output.raw
 Reading File Dataset\Test\2\input0.raw
 Reading File Dataset\Test\2\input1.raw
-Reading Data. Elapsed Time 7545 in micro-seconds
+Reading Data. Elapsed Time 6013 in micro-seconds
 Allocating GPU memory. Elapsed Time 8 in micro-seconds
 The dimensions of A are is 64 x 128 
 The dimensions of B are is 128 x 64 
 The dimensions of C are is 64 x 64 
-Allocating GPU memory. Elapsed Time 0 in micro-seconds
-Copying input memory to the GPU. Elapsed Time 0 in micro-seconds
---------->Performing CUDA computation******* Elapsed Time 13992 in micro-seconds
+Allocating GPU memory. Elapsed Time 11816 in micro-seconds
+Copying input memory to the GPU. Elapsed Time 1 in micro-seconds
+--------->Performing CUDA computation******* Elapsed Time 2 in micro-seconds
 Copying output memory to the CPU. Elapsed Time 0 in micro-seconds
 Freeing GPU Memory. Elapsed Time 0 in micro-seconds
 Writing File Dataset\Test\2\myOutput.raw
@@ -56,14 +56,14 @@ Running GPU Matrix Multiplicaion V1.2...
 Reading File Dataset\Test\3\output.raw
 Reading File Dataset\Test\3\input0.raw
 Reading File Dataset\Test\3\input1.raw
-Reading Data. Elapsed Time 2493 in micro-seconds
+Reading Data. Elapsed Time 2463 in micro-seconds
 Allocating GPU memory. Elapsed Time 8 in micro-seconds
 The dimensions of A are is 112 x 48 
 The dimensions of B are is 48 x 16 
 The dimensions of C are is 112 x 16 
-Allocating GPU memory. Elapsed Time 0 in micro-seconds
-Copying input memory to the GPU. Elapsed Time 0 in micro-seconds
---------->Performing CUDA computation******* Elapsed Time 15403 in micro-seconds
+Allocating GPU memory. Elapsed Time 11925 in micro-seconds
+Copying input memory to the GPU. Elapsed Time 1 in micro-seconds
+--------->Performing CUDA computation******* Elapsed Time 3 in micro-seconds
 Copying output memory to the CPU. Elapsed Time 0 in micro-seconds
 Freeing GPU Memory. Elapsed Time 0 in micro-seconds
 Writing File Dataset\Test\3\myOutput.raw
@@ -73,14 +73,14 @@ Running GPU Matrix Multiplicaion V1.2...
 Reading File Dataset\Test\4\output.raw
 Reading File Dataset\Test\4\input0.raw
 Reading File Dataset\Test\4\input1.raw
-Reading Data. Elapsed Time 6169 in micro-seconds
-Allocating GPU memory. Elapsed Time 15 in micro-seconds
+Reading Data. Elapsed Time 12725 in micro-seconds
+Allocating GPU memory. Elapsed Time 25 in micro-seconds
 The dimensions of A are is 84 x 84 
 The dimensions of B are is 84 x 84 
 The dimensions of C are is 84 x 84 
-Allocating GPU memory. Elapsed Time 0 in micro-seconds
-Copying input memory to the GPU. Elapsed Time 0 in micro-seconds
---------->Performing CUDA computation******* Elapsed Time 15575 in micro-seconds
+Allocating GPU memory. Elapsed Time 14409 in micro-seconds
+Copying input memory to the GPU. Elapsed Time 1 in micro-seconds
+--------->Performing CUDA computation******* Elapsed Time 2 in micro-seconds
 Copying output memory to the CPU. Elapsed Time 0 in micro-seconds
 Freeing GPU Memory. Elapsed Time 0 in micro-seconds
 Writing File Dataset\Test\4\myOutput.raw
@@ -90,14 +90,14 @@ Running GPU Matrix Multiplicaion V1.2...
 Reading File Dataset\Test\5\output.raw
 Reading File Dataset\Test\5\input0.raw
 Reading File Dataset\Test\5\input1.raw
-Reading Data. Elapsed Time 18207 in micro-seconds
-Allocating GPU memory. Elapsed Time 32 in micro-seconds
+Reading Data. Elapsed Time 8980 in micro-seconds
+Allocating GPU memory. Elapsed Time 21 in micro-seconds
 The dimensions of A are is 80 x 99 
 The dimensions of B are is 99 x 128 
 The dimensions of C are is 80 x 128 
-Allocating GPU memory. Elapsed Time 0 in micro-seconds
-Copying input memory to the GPU. Elapsed Time 0 in micro-seconds
---------->Performing CUDA computation******* Elapsed Time 12640 in micro-seconds
+Allocating GPU memory. Elapsed Time 11610 in micro-seconds
+Copying input memory to the GPU. Elapsed Time 1 in micro-seconds
+--------->Performing CUDA computation******* Elapsed Time 2 in micro-seconds
 Copying output memory to the CPU. Elapsed Time 0 in micro-seconds
 Freeing GPU Memory. Elapsed Time 0 in micro-seconds
 Writing File Dataset\Test\5\myOutput.raw
@@ -107,14 +107,14 @@ Running GPU Matrix Multiplicaion V1.2...
 Reading File Dataset\Test\6\output.raw
 Reading File Dataset\Test\6\input0.raw
 Reading File Dataset\Test\6\input1.raw
-Reading Data. Elapsed Time 3344 in micro-seconds
-Allocating GPU memory. Elapsed Time 23 in micro-seconds
+Reading Data. Elapsed Time 3316 in micro-seconds
+Allocating GPU memory. Elapsed Time 11 in micro-seconds
 The dimensions of A are is 67 x 53 
 The dimensions of B are is 53 x 64 
 The dimensions of C are is 67 x 64 
-Allocating GPU memory. Elapsed Time 0 in micro-seconds
-Copying input memory to the GPU. Elapsed Time 0 in micro-seconds
---------->Performing CUDA computation******* Elapsed Time 11237 in micro-seconds
+Allocating GPU memory. Elapsed Time 12103 in micro-seconds
+Copying input memory to the GPU. Elapsed Time 1 in micro-seconds
+--------->Performing CUDA computation******* Elapsed Time 3 in micro-seconds
 Copying output memory to the CPU. Elapsed Time 0 in micro-seconds
 Freeing GPU Memory. Elapsed Time 0 in micro-seconds
 Writing File Dataset\Test\6\myOutput.raw
@@ -124,14 +124,14 @@ Running GPU Matrix Multiplicaion V1.2...
 Reading File Dataset\Test\7\output.raw
 Reading File Dataset\Test\7\input0.raw
 Reading File Dataset\Test\7\input1.raw
-Reading Data. Elapsed Time 4616 in micro-seconds
-Allocating GPU memory. Elapsed Time 5 in micro-seconds
+Reading Data. Elapsed Time 4490 in micro-seconds
+Allocating GPU memory. Elapsed Time 6 in micro-seconds
 The dimensions of A are is 29 x 117 
 The dimensions of B are is 117 x 85 
 The dimensions of C are is 29 x 85 
-Allocating GPU memory. Elapsed Time 0 in micro-seconds
-Copying input memory to the GPU. Elapsed Time 0 in micro-seconds
---------->Performing CUDA computation******* Elapsed Time 11902 in micro-seconds
+Allocating GPU memory. Elapsed Time 11161 in micro-seconds
+Copying input memory to the GPU. Elapsed Time 1 in micro-seconds
+--------->Performing CUDA computation******* Elapsed Time 2 in micro-seconds
 Copying output memory to the CPU. Elapsed Time 0 in micro-seconds
 Freeing GPU Memory. Elapsed Time 0 in micro-seconds
 Writing File Dataset\Test\7\myOutput.raw
@@ -141,14 +141,14 @@ Running GPU Matrix Multiplicaion V1.2...
 Reading File Dataset\Test\8\output.raw
 Reading File Dataset\Test\8\input0.raw
 Reading File Dataset\Test\8\input1.raw
-Reading Data. Elapsed Time 16413 in micro-seconds
-Allocating GPU memory. Elapsed Time 84 in micro-seconds
+Reading Data. Elapsed Time 16013 in micro-seconds
+Allocating GPU memory. Elapsed Time 81 in micro-seconds
 The dimensions of A are is 191 x 19 
 The dimensions of B are is 19 x 241 
 The dimensions of C are is 191 x 241 
-Allocating GPU memory. Elapsed Time 0 in micro-seconds
-Copying input memory to the GPU. Elapsed Time 0 in micro-seconds
---------->Performing CUDA computation******* Elapsed Time 11439 in micro-seconds
+Allocating GPU memory. Elapsed Time 12653 in micro-seconds
+Copying input memory to the GPU. Elapsed Time 1 in micro-seconds
+--------->Performing CUDA computation******* Elapsed Time 2 in micro-seconds
 Copying output memory to the CPU. Elapsed Time 0 in micro-seconds
 Freeing GPU Memory. Elapsed Time 0 in micro-seconds
 Writing File Dataset\Test\8\myOutput.raw
@@ -158,14 +158,14 @@ Running GPU Matrix Multiplicaion V1.2...
 Reading File Dataset\Test\9\output.raw
 Reading File Dataset\Test\9\input0.raw
 Reading File Dataset\Test\9\input1.raw
-Reading Data. Elapsed Time 914830 in micro-seconds
-Allocating GPU memory. Elapsed Time 2145 in micro-seconds
+Reading Data. Elapsed Time 983512 in micro-seconds
+Allocating GPU memory. Elapsed Time 1858 in micro-seconds
 The dimensions of A are is 1024 x 1024 
 The dimensions of B are is 1024 x 1024 
 The dimensions of C are is 1024 x 1024 
-Allocating GPU memory. Elapsed Time 0 in micro-seconds
-Copying input memory to the GPU. Elapsed Time 0 in micro-seconds
---------->Performing CUDA computation******* Elapsed Time 12126 in micro-seconds
+Allocating GPU memory. Elapsed Time 12278 in micro-seconds
+Copying input memory to the GPU. Elapsed Time 1 in micro-seconds
+--------->Performing CUDA computation******* Elapsed Time 3 in micro-seconds
 Copying output memory to the CPU. Elapsed Time 0 in micro-seconds
 Freeing GPU Memory. Elapsed Time 0 in micro-seconds
 Writing File Dataset\Test\9\myOutput.raw
