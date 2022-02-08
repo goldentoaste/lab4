@@ -1,15 +1,15 @@
-Mon 02/07/2022
-11:19:13.69
-CPU MatMul Testing Test 3...
+2022-02-07
+21:23:42.83
+CPU MatMul Testing Test 0...
 Running CPU Matrix Multiplicaion...
 Reading File Dataset\Test\0\output.raw
 Reading File Dataset\Test\0\input0.raw
 Reading File Dataset\Test\0\input1.raw
-Reading Data. Elapsed Time 858 in micro-seconds
+Reading Data. Elapsed Time 11495 in micro-seconds
 The dimensions of A are is 16 x 16 
 The dimensions of B are is 16 x 16 
 The dimensions of C are is 16 x 16 
------------>Execution Time****. Elapsed Time 13 in micro-seconds
+----------->Execution Time****. Elapsed Time 2 in micro-seconds
 Writing File Dataset\Test\0\myOutput.raw
 Passed
 CPU MatMul Testing Test 1...
@@ -17,11 +17,11 @@ Running CPU Matrix Multiplicaion...
 Reading File Dataset\Test\1\output.raw
 Reading File Dataset\Test\1\input0.raw
 Reading File Dataset\Test\1\input1.raw
-Reading Data. Elapsed Time 7822 in micro-seconds
+Reading Data. Elapsed Time 18593 in micro-seconds
 The dimensions of A are is 64 x 64 
 The dimensions of B are is 64 x 64 
 The dimensions of C are is 64 x 64 
------------>Execution Time****. Elapsed Time 852 in micro-seconds
+----------->Execution Time****. Elapsed Time 266 in micro-seconds
 Writing File Dataset\Test\1\myOutput.raw
 Passed
 CPU MatMul Testing Test 2...
@@ -29,11 +29,11 @@ Running CPU Matrix Multiplicaion...
 Reading File Dataset\Test\2\output.raw
 Reading File Dataset\Test\2\input0.raw
 Reading File Dataset\Test\2\input1.raw
-Reading Data. Elapsed Time 23127 in micro-seconds
+Reading Data. Elapsed Time 22034 in micro-seconds
 The dimensions of A are is 64 x 128 
 The dimensions of B are is 128 x 64 
 The dimensions of C are is 64 x 64 
------------>Execution Time****. Elapsed Time 1897 in micro-seconds
+----------->Execution Time****. Elapsed Time 391 in micro-seconds
 Writing File Dataset\Test\2\myOutput.raw
 Passed
 CPU MatMul Testing Test 3...
@@ -41,11 +41,11 @@ Running CPU Matrix Multiplicaion...
 Reading File Dataset\Test\3\output.raw
 Reading File Dataset\Test\3\input0.raw
 Reading File Dataset\Test\3\input1.raw
-Reading Data. Elapsed Time 5338 in micro-seconds
+Reading Data. Elapsed Time 16177 in micro-seconds
 The dimensions of A are is 112 x 48 
 The dimensions of B are is 48 x 16 
 The dimensions of C are is 112 x 16 
------------>Execution Time****. Elapsed Time 280 in micro-seconds
+----------->Execution Time****. Elapsed Time 56 in micro-seconds
 Writing File Dataset\Test\3\myOutput.raw
 Passed
 CPU MatMul Testing Test 4...
@@ -53,11 +53,11 @@ Running CPU Matrix Multiplicaion...
 Reading File Dataset\Test\4\output.raw
 Reading File Dataset\Test\4\input0.raw
 Reading File Dataset\Test\4\input1.raw
-Reading Data. Elapsed Time 12828 in micro-seconds
+Reading Data. Elapsed Time 26071 in micro-seconds
 The dimensions of A are is 84 x 84 
 The dimensions of B are is 84 x 84 
 The dimensions of C are is 84 x 84 
------------>Execution Time****. Elapsed Time 2059 in micro-seconds
+----------->Execution Time****. Elapsed Time 388 in micro-seconds
 Writing File Dataset\Test\4\myOutput.raw
 Passed
 CPU MatMul Testing Test 5...
@@ -65,11 +65,11 @@ Running CPU Matrix Multiplicaion...
 Reading File Dataset\Test\5\output.raw
 Reading File Dataset\Test\5\input0.raw
 Reading File Dataset\Test\5\input1.raw
-Reading Data. Elapsed Time 18946 in micro-seconds
+Reading Data. Elapsed Time 29051 in micro-seconds
 The dimensions of A are is 80 x 99 
 The dimensions of B are is 99 x 128 
 The dimensions of C are is 80 x 128 
------------>Execution Time****. Elapsed Time 3654 in micro-seconds
+----------->Execution Time****. Elapsed Time 737 in micro-seconds
 Writing File Dataset\Test\5\myOutput.raw
 Passed
 CPU MatMul Testing Test 6...
@@ -77,11 +77,11 @@ Running CPU Matrix Multiplicaion...
 Reading File Dataset\Test\6\output.raw
 Reading File Dataset\Test\6\input0.raw
 Reading File Dataset\Test\6\input1.raw
-Reading Data. Elapsed Time 7570 in micro-seconds
+Reading Data. Elapsed Time 20347 in micro-seconds
 The dimensions of A are is 67 x 53 
 The dimensions of B are is 53 x 64 
 The dimensions of C are is 67 x 64 
------------>Execution Time****. Elapsed Time 1189 in micro-seconds
+----------->Execution Time****. Elapsed Time 147 in micro-seconds
 Writing File Dataset\Test\6\myOutput.raw
 Passed
 CPU MatMul Testing Test 7...
@@ -89,11 +89,11 @@ Running CPU Matrix Multiplicaion...
 Reading File Dataset\Test\7\output.raw
 Reading File Dataset\Test\7\input0.raw
 Reading File Dataset\Test\7\input1.raw
-Reading Data. Elapsed Time 9593 in micro-seconds
+Reading Data. Elapsed Time 20918 in micro-seconds
 The dimensions of A are is 29 x 117 
 The dimensions of B are is 117 x 85 
 The dimensions of C are is 29 x 85 
------------>Execution Time****. Elapsed Time 968 in micro-seconds
+----------->Execution Time****. Elapsed Time 200 in micro-seconds
 Writing File Dataset\Test\7\myOutput.raw
 Passed
 CPU MatMul Testing Test 8...
@@ -101,10 +101,22 @@ Running CPU Matrix Multiplicaion...
 Reading File Dataset\Test\8\output.raw
 Reading File Dataset\Test\8\input0.raw
 Reading File Dataset\Test\8\input1.raw
-Reading Data. Elapsed Time 33839 in micro-seconds
+Reading Data. Elapsed Time 38584 in micro-seconds
 The dimensions of A are is 191 x 19 
 The dimensions of B are is 19 x 241 
 The dimensions of C are is 191 x 241 
------------>Execution Time****. Elapsed Time 3262 in micro-seconds
+----------->Execution Time****. Elapsed Time 441 in micro-seconds
 Writing File Dataset\Test\8\myOutput.raw
+Passed
+CPU MatMul Testing Test 9...
+Running CPU Matrix Multiplicaion...
+Reading File Dataset\Test\9\output.raw
+Reading File Dataset\Test\9\input0.raw
+Reading File Dataset\Test\9\input1.raw
+Reading Data. Elapsed Time 906933 in micro-seconds
+The dimensions of A are is 1024 x 1024 
+The dimensions of B are is 1024 x 1024 
+The dimensions of C are is 1024 x 1024 
+----------->Execution Time****. Elapsed Time 1482694 in micro-seconds
+Writing File Dataset\Test\9\myOutput.raw
 Passed

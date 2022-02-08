@@ -8,7 +8,7 @@
 #include <math.h>
 #include <processthreadsapi.h>
 #include <iostream>
-
+#pragma warning(disable:4996)
 float *ImportMatrix(char *filename, int *N, int *M)
 {
 	FILE *handle;
